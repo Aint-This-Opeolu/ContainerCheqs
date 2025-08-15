@@ -1,0 +1,31 @@
+{
+  "name": "docker-monitor-frontend",
+  "version": "1.0.0",
+  "description": "Docker monitoring application with dashboard frontend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo 'No build step required for this Node.js app'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "docker",
+    "monitoring",
+    "dashboard",
+    "nodejs",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
